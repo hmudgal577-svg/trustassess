@@ -1,0 +1,8 @@
+/* Framer Motion overrides — disable CSS transitions on elements now handled by FM */
+.modal-overlay { animation: none; }
+.modal { animation: none; }
+.side-panel { animation: none; }
+.side-panel-overlay { animation: none; }
+.toast { animation: none; }
+.profile-dropdown { animation: none; }
+.sim-step { animation: none; }

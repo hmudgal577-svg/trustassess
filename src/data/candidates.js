@@ -1,0 +1,31 @@
+export const candidates = [
+  { id: 'C-0001', name: 'Aarav Sharma', centre: 'Bhopal', centreId: 'c-bhopal', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:42', answeredQ: 28, totalQ: 50 },
+  { id: 'C-0002', name: 'Priya Verma', centre: 'Bhopal', centreId: 'c-bhopal', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:45', answeredQ: 31, totalQ: 50 },
+  { id: 'C-0003', name: 'Rohit Patel', centre: 'Indore', centreId: 'c-indore', session: '01', connection: 'unstable', syncStatus: 'buffered', status: 'active', lastSync: '09:57:12', answeredQ: 22, totalQ: 50 },
+  { id: 'C-0004', name: 'Sneha Joshi', centre: 'Indore', centreId: 'c-indore', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:40', answeredQ: 19, totalQ: 50 },
+  { id: 'C-0005', name: 'Amit Tiwari', centre: 'Gwalior', centreId: 'c-gwalior', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:43', answeredQ: 35, totalQ: 50 },
+  { id: 'C-0006', name: 'Kavya Singh', centre: 'Jabalpur', centreId: 'c-jabalpur', session: '01', connection: 'unstable', syncStatus: 'pending', status: 'active', lastSync: '09:56:20', answeredQ: 14, totalQ: 50 },
+  { id: 'C-0007', name: 'Vikas Yadav', centre: 'Ujjain', centreId: 'c-ujjain', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:41', answeredQ: 42, totalQ: 50 },
+  { id: 'C-0008', name: 'Pooja Gupta', centre: 'Sagar', centreId: 'c-sagar', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:38', answeredQ: 27, totalQ: 50 },
+  { id: 'C-0009', name: 'Anuj Kumar', centre: 'Rewa', centreId: 'c-rewa', session: '01', connection: 'recovering', syncStatus: 'buffered', status: 'active', lastSync: '09:55:44', answeredQ: 18, totalQ: 50 },
+  { id: 'C-0010', name: 'Divya Mishra', centre: 'Bhopal', centreId: 'c-bhopal', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:44', answeredQ: 47, totalQ: 50 },
+  { id: 'C-0011', name: 'Rahul Chouhan', centre: 'Indore', centreId: 'c-indore', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:39', answeredQ: 33, totalQ: 50 },
+  { id: 'C-0012', name: 'Neha Dubey', centre: 'Gwalior', centreId: 'c-gwalior', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:46', answeredQ: 29, totalQ: 50 },
+  { id: 'C-0013', name: 'Suresh Kadam', centre: 'Jabalpur', centreId: 'c-jabalpur', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:33', answeredQ: 11, totalQ: 50 },
+  { id: 'C-0014', name: 'Ankita Rawat', centre: 'Ujjain', centreId: 'c-ujjain', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:42', answeredQ: 38, totalQ: 50 },
+  { id: 'C-0015', name: 'Manish Pandey', centre: 'Sagar', centreId: 'c-sagar', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:41', answeredQ: 24, totalQ: 50 },
+  { id: 'C-0016', name: 'Ritu Saxena', centre: 'Rewa', centreId: 'c-rewa', session: '01', connection: 'recovering', syncStatus: 'buffered', status: 'active', lastSync: '09:57:01', answeredQ: 16, totalQ: 50 },
+  { id: 'C-0017', name: 'Deepak Shukla', centre: 'Bhopal', centreId: 'c-bhopal', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:44', answeredQ: 50, totalQ: 50 },
+  { id: 'C-0018', name: 'Pallavi Nair', centre: 'Indore', centreId: 'c-indore', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:40', answeredQ: 44, totalQ: 50 },
+  { id: 'C-0019', name: 'Karan Malviya', centre: 'Gwalior', centreId: 'c-gwalior', session: '01', connection: 'stable', syncStatus: 'synced', status: 'completed', lastSync: '09:58:12', answeredQ: 50, totalQ: 50 },
+  { id: 'C-0020', name: 'Shruti Agarwal', centre: 'Jabalpur', centreId: 'c-jabalpur', session: '01', connection: 'stable', syncStatus: 'synced', status: 'completed', lastSync: '09:51:22', answeredQ: 50, totalQ: 50 },
+  { id: 'C-0184', name: 'Yash Trivedi', centre: 'Bhopal', centreId: 'c-bhopal', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:57:12', answeredQ: 12, totalQ: 50 },
+  { id: 'C-0185', name: 'Nidhi Bhatt', centre: 'Indore', centreId: 'c-indore', session: '01', connection: 'stable', syncStatus: 'synced', status: 'active', lastSync: '09:58:41', answeredQ: 36, totalQ: 50 },
+];
+
+export const candidateStats = {
+  total: 12480,
+  active: 11842,
+  completed: 487,
+  disconnected: 151,
+};
